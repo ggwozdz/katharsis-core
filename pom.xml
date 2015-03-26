@@ -106,8 +106,15 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
-
 	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>oss-jfrog-artifactory</id>
+			<url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
+		</repository>
+	</repositories>
+	
 	<distributionManagement>
 		<snapshotRepository>
 			<id>oss-jfrog-artifactory</id>
@@ -115,5 +122,7 @@
 			<url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
+	
+	
 
 </project>
